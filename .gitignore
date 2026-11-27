@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# Dataset: do not upload large original data
+dataset/raw/
+dataset/images/
+dataset/labels/
+
+# Pretrained weights
+pretrained/
+
+# Temporary files
+*.cache
+*.log
+.DS_Store
